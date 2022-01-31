@@ -82,7 +82,7 @@ const Covid = () => {
                 <p className="card-name">
                   <span> LAST </span> UPDATED
                 </p>
-                <p className="card-total card-samll">{(Date(data.updated)).substring(4,15)}</p>
+                <p className="card-total card-samll-date">{(Date(data.updated)).substring(4,15)}</p>
                 <p>{(Date(data.updated)).substring(16,24)}</p>
               </div>
             </div>
