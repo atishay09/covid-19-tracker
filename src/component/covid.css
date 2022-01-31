@@ -84,6 +84,9 @@ ul {
   ul {
     grid-template-columns: repeat(1, 1fr);
   }
+  .card-small-date{
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 335px) {
   section h1 {
